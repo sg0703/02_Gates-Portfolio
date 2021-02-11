@@ -197,6 +197,11 @@ h3 {
 .contact_me ul li {
     padding: 10px;
     font-size: 16pt;
+    font-weight: bold;
+}
+
+#resume {
+    font-weight: bold;
 }
 
 @media screen AND (max-width: 768px) {
@@ -255,6 +260,5 @@ h3 {
         flex-direction: column;
         width: 100%;
         justify-content: flex-start;
-
-    }
+   }
 }
