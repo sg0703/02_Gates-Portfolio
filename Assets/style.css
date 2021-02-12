@@ -223,9 +223,12 @@ footer {
 
 @media screen AND (max-width: 768px) {
     /* Bump content beneath image to the right to prevent sections from being off screen */
+    h2 {
+        font-size: 22pt;
+    }
     .content_section h3 {
         padding-left: 40px;
-        font-size: 26pt;
+        font-size: 22pt;
     }
     
     .main_header {
