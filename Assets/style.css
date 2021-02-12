@@ -227,6 +227,8 @@ footer {
         font-size: 22pt;
         position: absolute;
         align-self: center;
+        padding: 0px;
+        margin: 0px 0px 7px 0px;
     }
     .content_section h3 {
         padding-left: 40px;
