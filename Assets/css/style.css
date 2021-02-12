@@ -1,12 +1,9 @@
-/* Style.css for Homework 2 */
-
-:root {
-    display: flex;
-}
+/* This stylesheet controls for formatting of index.html */
 
 html {
     background-color: gray;
 }
+
 .main_header {
     display: flex;
     justify-content: space-between;
@@ -88,6 +85,7 @@ main {
     margin-bottom: 25px;
 }
 
+/* H3 is used for section headers (about, etc.) */
 .content_section h3 {
     padding-right: 5px;
     margin-top: 0px;
@@ -99,6 +97,7 @@ main {
 
     font-size: 36pt;
 }
+
 .content_section p {
     font-size: 18pt;
     width: 65%;
@@ -112,8 +111,7 @@ main {
     width: 65%;
 }
 
-/* Main h4 settings */
-
+/* H4 is used for work project link captions */
 h4 {
     font-size: 25pt;
     position: absolute;
@@ -126,7 +124,6 @@ h4 {
 }
 
 /* Change h4 settings depending on placement */
-
 .work_project h4 {
     align-self: flex-end;
     background: gray;
@@ -161,7 +158,6 @@ h4 {
 }
 
 /* Set positioning for background images in Work section */
-
 .work_project-top img,
 .work_project img
 {
@@ -182,7 +178,6 @@ h4 {
 }
 
 /* Contact Section */
-
 .contact_me {
     padding: 0px;
     margin: 0px;
@@ -204,7 +199,6 @@ h4 {
 }
 
 /* Resume section */
-
 #resume {
     font-weight: bold;
 }
@@ -220,9 +214,8 @@ footer {
 }
 
 /* Re-size page if shown on mobile device */
-
 @media screen AND (max-width: 768px) {
-    /* Bump content beneath image to the right to prevent sections from being off screen */
+    /* Change caption on image so that it aligns properly */
     .cool_image h2 {
         font-size: 22pt;
         position: absolute;
@@ -230,6 +223,8 @@ footer {
         padding: 0px;
         margin: 0px 0px 7px 0px;
     }
+
+    /* Bump content beneath image to the right to prevent sections from being off screen */
     .content_section h3 {
         padding-left: 40px;
         font-size: 22pt;
@@ -239,10 +234,12 @@ footer {
         flex-direction: column;
         align-items: center;
     }
+
     /* Make the projects all align in a column with 1 per row */
     .work_project {
         flex: 1 1 100%;
     }
+    
     /* Change images so that they properly re-size and are not stretched or squished */
     .work_project-top img,
     .work_project img
@@ -252,7 +249,8 @@ footer {
         object-fit: cover;
         vertical-align: bottom;
     }
-
+    
+    /* Re-size captions for work projects so they fit */
     .work_project-top h4, .work_project h4 {
         font-size: 22pt;
     }
