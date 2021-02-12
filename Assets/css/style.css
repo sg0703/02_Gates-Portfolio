@@ -1,4 +1,4 @@
-/* This stylesheet controls for formatting of index.html */
+/* This stylesheet controls formatting of index.html */
 
 html {
     background-color: gray;
@@ -220,8 +220,8 @@ footer {
         font-size: 22pt;
         position: absolute;
         align-self: center;
-        padding: 0px;
-        margin: 0px 0px 7px 0px;
+        padding: 0px 0px 7px 0px;
+        margin: 0px;
     }
 
     /* Bump content beneath image to the right to prevent sections from being off screen */
