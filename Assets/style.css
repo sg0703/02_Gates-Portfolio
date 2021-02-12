@@ -88,7 +88,7 @@ main {
     margin-bottom: 25px;
 }
 
-.content_section h2 {
+.content_section h3 {
     padding-right: 5px;
     margin-top: 0px;
     margin-right: 15px;
@@ -112,9 +112,9 @@ main {
     width: 65%;
 }
 
-/* Main h3 settings */
+/* Main h4 settings */
 
-h3 {
+h4 {
     font-size: 25pt;
     position: absolute;
 
@@ -125,14 +125,14 @@ h3 {
     color: white;
 }
 
-/* Change h3 settings depending on placement */
+/* Change h4 settings depending on placement */
 
-.work_project h3 {
+.work_project h4 {
     align-self: flex-end;
     background: gray;
 }
 
-.work_project-top h3 {
+.work_project-top h4 {
     background-color: black;
 }
 
@@ -223,8 +223,9 @@ footer {
 
 @media screen AND (max-width: 768px) {
     /* Bump content beneath image to the right to prevent sections from being off screen */
-    h2 {
+    .content_section h3 {
         padding-left: 40px;
+        font-size: 26pt;
     }
     
     .main_header {
