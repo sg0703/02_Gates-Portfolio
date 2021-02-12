@@ -253,6 +253,10 @@ footer {
         vertical-align: bottom;
     }
 
+    .work_project-top h4, .work_project h4 {
+        font-size: 22pt;
+    }
+
     .main_header {
         padding: 0px;
     }
