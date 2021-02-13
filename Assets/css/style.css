@@ -252,7 +252,7 @@ footer {
     
     /* Re-size captions for work projects so they fit */
     .work_project-top h4, .work_project h4 {
-        font-size: 22pt;
+        font-size: 16pt;
     }
 
     .main_header {
