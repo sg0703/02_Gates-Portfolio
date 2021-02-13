@@ -25,7 +25,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 1. I created a basic website using semantic HTML in the file index.html
 2. I created a reset.css stylesheet to standardize the layout across browsers
 3. I create a style.css stylesheet to format the HTML in index.html
-4. The end result of a responsive portfolio website that satisfies the above criteria
+4. The end result is a responsive portfolio website that satisfies the above criteria
 5. I utilized GitHub to organize my code and easily track/make changes
 6. All images are stored in Assets/images
 7. Stylesheets are stored in Assets/css
